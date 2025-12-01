@@ -56,7 +56,7 @@ export const Oracle: React.FC = () => {
 
         <div className="min-h-[120px]">
           {interpretation && (
-            <div className="animate-[fadeIn_1s_ease-out]">
+            <div className="animate-smooth-appear">
               <p className="text-xl md:text-3xl leading-relaxed font-normal">
                 {interpretation}
               </p>
