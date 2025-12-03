@@ -65,20 +65,49 @@ const App: React.FC = () => {
         content="Art is whatever the gallery says it is. A urinal, a shark, a blank canvas. The frame defines the work."
       />
 
-      {/* Interactive Oracle Section */}
+      {/* Philosophy 5: Symbolism */}
+      <TextSection 
+        title="05 — Symbolism"
+        alignment="right"
+        content="The visible sign of an invisible reality. Not the object itself, but the echo it leaves in the mind."
+      />
+
+      {/* Philosophy 6: Conceptual */}
+      <TextSection 
+        title="06 — Conceptual"
+        alignment="left"
+        content="The idea becomes the machine that makes the art. The execution is perfunctory. The thought alone is the masterpiece."
+      />
+
+      {/* Philosophy 7: Aestheticism */}
+      <TextSection 
+        title="07 — Aestheticism"
+        alignment="right"
+        content="Art for art's sake. It serves no moral, political, or didactic purpose. Beauty is its own justification."
+      />
+
+      {/* Philosophy 8: Existentialism */}
+      <TextSection 
+        title="08 — Existentialism"
+        alignment="left"
+        content="In a meaningless universe, creation is the only authentic act. We define ourselves by what we make."
+      />
+
+      {/* Philosophy 9: Surrealism */}
+      <TextSection 
+        title="09 — Surrealism"
+        alignment="right"
+        content="The liberation of the unconscious. Dreams, chance, and madness intertwined. Reality is a fragile illusion."
+      />
+      {/* Philosophy 10: Intuition */}
+      <TextSection 
+        title="10 — Intuition"
+        alignment="left"
+        content="A flash of pure understanding. It bypasses logic and reason to strike directly at the soul. Immediate knowledge."
+      />
+      {/* The Oracle - Interactive Section */}
       <Oracle />
 
-      {/* Footer */}
-      <footer className="w-full px-6 md:px-12 lg:px-24 py-12 flex justify-between items-end">
-        <div className="text-[10px] uppercase tracking-[0.2em] opacity-30">
-          (C) XXXX / NULL
-        </div>
-        <div className="text-[10px] uppercase tracking-[0.2em] opacity-30 text-right">
-          Index<br/>
-          About<br/>
-          Void
-        </div>
-      </footer>
     </main>
   );
 };
